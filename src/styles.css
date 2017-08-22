@@ -1,19 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
-body, html {
+html * 
+{
+    font-size: 25px !important;
+    line-height: 2 !important;
+    color: #FFFFFF !important;
+}
+
+body, html 
+{
     height: 100%;
     margin: 0;
 }
 
-.bg { 
-
+.bg 
+{ 
     height: 100%; 
-
+    padding-top: 40px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #000000;
 }
 
-html *
+.navbar
 {
-   color: #000000;
+    background-color: #151515 !important;
+    height: 90px !important;
+}
+
+li.navbutton
+{
+    list-style-type: none;
+    height: 87px !important;
+}
+
+.btn
+{
+    border:0px solid transparent !important; 
+    height: 100%;
+}
+
+.btn-default 
+{
+    background-color: #151515 !important; 
+}
+
+.btn:hover
+{ 
+    background-color: #252525 !important;
+}
+
+.img-responsive
+{ 
+    height: 87px !important;
 }
