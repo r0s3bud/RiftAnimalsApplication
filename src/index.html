@@ -5,9 +5,41 @@
   <title>RiftAnimalsApplication</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link type="image/x-icon" rel="icon" href="favicon.ico">
 </head>
-<body>
-  <app-root></app-root>
+<body id="general" class="bg">
+  <div class="row">
+    <div class="btn-group  col-md-12 navbar navbar-default navbar-header navbar-fixed-top">
+        <div class="col-md-2">
+            <li class="navbutton"><input type="button" id="home-button" class="btn btn-default btn-block" value="Home"></li>
+        </div>
+        <div class="col-md-2">
+            <li class="navbutton"><input type="button" id="teams-button" class="btn btn-default btn-block" value="Teams"></li>
+        </div>
+        <div class="col-md-2">
+            <li class="navbutton"><input type="button" id="history-button" class="btn btn-default btn-block" value="History"></li>
+        </div>
+        <div class="col-md-2">
+            <li class="navbutton"><input type="button" id="contact-button" class="btn btn-default btn-block" value="Contact"></li>
+        </div>
+        <div class="col-md-2 navbar-right">
+            <img src="assets\img\animals.png" class="img-responsive" align="right" id="logo">
+        </div>
+    </div>
+  </div>
+  <div class="col-md-10 container container-fluid">
+        <app-root>
+            </app-root>
+  </div>
+    <div id="sidemenu" class="col-md-2 container container-fluid">
+        <p class="sidemenu-paragraph">Upcoming matches :
+        vs Rak Maryjusz Th 20:20
+        vs Ziomeczki Typeczki Fr 14:20
+        </p>
+        <p class="sidemenu-paragraph">Recent results :
+            <font color="green">VICTORY</font> vs Rak Maryjusz
+            <font color="red">DEFEAT</font> vs SKT T1
+        </p>
+</div>
 </body>
 </html>

@@ -1,19 +1,97 @@
 /* You can add global styles to this file, and also import other style files */
-body, html {
+body, html 
+{
     height: 100%;
     margin: 0;
 }
 
-.bg { 
-
+.bg 
+{ 
     height: 100%; 
-
+    padding-top: 40px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #000000;
+    font-size: 25px;
+    line-height: 2;
+    color: #FFFFFF;
 }
 
-html *
+.navbar
 {
-   color: #000000;
+    background-color: #151515 !important;
+    height: 90px;
+}
+
+li.navbutton
+{
+    list-style-type: none;
+    height: 87px;
+}
+
+.btn
+{
+    border:0px solid transparent !important; 
+    height: 100%;
+}
+
+.btn-default 
+{
+    background-color: #151515 !important; 
+}
+
+.btn:hover
+{ 
+    background-color: #252525 !important;
+}
+
+#logo
+{ 
+    height: 87px;
+}
+
+#home-button
+{
+    font-size: 25px;
+    line-height: 2;
+    color: #FFFFFF;
+}
+
+#teams-button 
+{
+    font-size: 25px;
+    line-height: 2;
+    color: #FFFFFF;
+}
+
+#history-button 
+{
+    font-size: 25px;
+    line-height: 2;
+    color: #FFFFFF;
+}
+
+#contact-button 
+{
+    font-size: 25px;
+    line-height: 2;
+    color: #FFFFFF;
+}
+
+#sidemenu
+{
+    padding-top: 87px;
+    background-color: #151515;
+    height: 100%;
+    border-style: solid;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left-width: 1px;
+}
+
+.sidemenu-paragraph
+{
+    font-size: 16px;
+    font-style: italic;
 }
